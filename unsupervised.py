@@ -49,8 +49,6 @@ def main():
 
     # Convert to supervised format
     supervised_data = convert_to_supervised(data, n_clusters)
-
-    # Output result
     print("\nFirst 5 rows of dataset with cluster labels:")
     print(supervised_data.head())
 

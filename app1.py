@@ -13,7 +13,6 @@ from pathlib import Path
 st.set_page_config("SwiftML")
 
 st.title("SwiftML")
-
 task=st.sidebar.radio("Select task",["Data Ingestion","Model Selection"])
 if task=="Data Ingestion":
     file=st.file_uploader("Upload your file")

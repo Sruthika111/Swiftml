@@ -17,7 +17,6 @@ section = st.sidebar.radio("Choose Section", ["-- Select Section --", "Data Prep
 # Blank landing page
 if section == "-- Select Section --":
    
-
     st.markdown("""
     ### ⚡ <span style='font-size:22px; font-weight:bold; color:#ffa500;'>– NO CODE, JUST RESULTS! –</span>
 

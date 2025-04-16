@@ -156,7 +156,6 @@ elif section == "Clustering (Unsupervised → Supervised)":
         supervised_data = data.copy()
         supervised_data['cluster_label'] = cluster_labels
         return supervised_data
-
     st.markdown("### Convert Unsupervised Data to Supervised using KMeans")
     st.markdown("Upload your CSV dataset and choose the number of clusters.")
 

@@ -40,7 +40,7 @@ if uploaded_file is not None:
                 st.write("Preview of data with cluster labels:")
                 st.dataframe(result_df.head())
 
-                # Download button
+               
                 csv = result_df.to_csv(index=False).encode('utf-8')
                 st.download_button(
                     label="Download clustered data as CSV",

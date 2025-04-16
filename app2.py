@@ -66,7 +66,7 @@ class DatasetPreprocessor:
     def split_dataset(self, df: pd.DataFrame, test_size: float = 0.2):
         return train_test_split(df, test_size=test_size, random_state=42)
 
-# Streamlit UI
+
 st.title("📊 Dataset Preprocessing App")
 
 uploaded_file = st.file_uploader("Upload your dataset", type=["csv", "json", "xlsx", "xls"])

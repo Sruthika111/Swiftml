@@ -31,7 +31,6 @@ if section == "Data Preprocessing":
                 return pd.read_excel(path)
             else:
                 raise ValueError(f"Unsupported format: {path}")
-
         def handle_missing_values(self, df: pd.DataFrame, strategy: str = 'mean') -> pd.DataFrame:
             numeric_cols = df.select_dtypes(include=[np.number]).columns
             strategies = {
